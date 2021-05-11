@@ -34,6 +34,6 @@ function fillPixel(e) {
     e.target.style.backgroundColor = `${color}`;
 }
 
-window.onload = setTimeout(main, 200);
+window.onload = main;
 
 resetBtn.addEventListener('click', main);
